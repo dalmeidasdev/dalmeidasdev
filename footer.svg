@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Almeida Scripts: scripts e sistemas sob medida para FiveM. Orçamento pelo Discord: zalmeida">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="15.5" fill="none" stroke="#30363d"/>
+
+  <!-- Texto -->
+  <text x="64" y="112" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="56" font-weight="700" fill="#f0f6fc">almeida<tspan fill="#f97316">_</tspan>scripts</text>
+  <text x="64" y="158" font-family="system-ui,'Segoe UI',Roboto,Arial,sans-serif" font-size="22" fill="#9da7b3">Scripts e sistemas sob medida para FiveM</text>
+
+  <rect x="64" y="184" width="392" height="42" rx="21" fill="none" stroke="#f97316" stroke-width="1.5"/>
+  <text x="86" y="211" font-family="system-ui,'Segoe UI',Roboto,Arial,sans-serif" font-size="18" fill="#f0f6fc">Orçamento pelo Discord: <tspan fill="#f97316" font-weight="700">zalmeida</tspan></text>
+
+  <!-- Medidor grande -->
+  <g fill="none" stroke-linecap="round">
+    <circle cx="960" cy="130" r="78" stroke="#30363d" stroke-width="10" stroke-dasharray="367.5 490" transform="rotate(135 960 130)"/>
+    <circle cx="960" cy="130" r="78" stroke="#f97316" stroke-width="10" stroke-dasharray="250 490" transform="rotate(135 960 130)"/>
+    <line x1="960" y1="130" x2="1006.6" y2="89.1" stroke="#f0f6fc" stroke-width="4"/>
+  </g>
+  <circle cx="960" cy="130" r="7" fill="#f0f6fc"/>
+  <text x="960" y="182" text-anchor="middle" font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="26" font-weight="700" fill="#f0f6fc">128</text>
+  <text x="960" y="200" text-anchor="middle" font-family="system-ui,'Segoe UI',Roboto,Arial,sans-serif" font-size="12" fill="#9da7b3">km/h</text>
+
+  <!-- Medidor pequeno -->
+  <g fill="none" stroke-linecap="round">
+    <circle cx="1100" cy="165" r="38" stroke="#30363d" stroke-width="7" stroke-dasharray="179 239" transform="rotate(135 1100 165)"/>
+    <circle cx="1100" cy="165" r="38" stroke="#f97316" stroke-width="7" stroke-dasharray="120 239" transform="rotate(135 1100 165)"/>
+    <line x1="1100" y1="165" x2="1120.1" y2="145.5" stroke="#f0f6fc" stroke-width="3"/>
+  </g>
+  <circle cx="1100" cy="165" r="5" fill="#f0f6fc"/>
+</svg>
