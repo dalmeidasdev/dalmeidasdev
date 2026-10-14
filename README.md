@@ -38,3 +38,5 @@ Uso IA como ferramenta de apoio e deixo claro nos meus projetos quando ela parti
 ## 📫 Contato
 - Discord: **zalmeida**
 - Comunidade e suporte: [Almeida Scripts no Discord](https://discord.gg/dfuF2gz8NQ)
+
+![Almeida Scripts](./footer.svg)
