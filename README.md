@@ -3,7 +3,7 @@
 Desenvolvo scripts e sistemas para servidores de **FiveM** (Lua, base QB-Core) e bots de Discord. Estou aprendendo programação na prática, criando ferramentas para resolver problemas reais, e documentando o caminho aqui. Moro em Minas Gerais, Brasil.
 
 ## 💼 Serviços para servidores FiveM
-- Scripts e sistemas sob medida (QB-Core): facções, menus, HUDs e ajustes
+- Scripts e sistemas sob medida (QB-Core): facções, menus, HUDs, telas de carregamento e ajustes
 - Correção de bugs e adaptação de scripts já existentes
 - Bots de Discord integrados ao servidor (whitelist, banimentos e outros)
 
@@ -11,8 +11,13 @@ Combino o escopo antes de começar e entrego por etapas. Uso IA como apoio e tes
 
 > Atendimento somente pelo Discord **zalmeida** e pelo servidor oficial da Almeida Scripts.
 
-## ⭐ Projeto em destaque
-**[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD gratuito para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo). Publicado com releases, instalação documentada e changelog. Feito pela **Almeida Scripts**, com suporte pelo [Discord](https://discord.gg/dfuF2gz8NQ).
+## ⭐ Scripts gratuitos da Almeida Scripts
+Scripts que eu publico de graça, com instalação documentada, changelog e suporte pelo [Discord](https://discord.gg/dfuF2gz8NQ):
+
+- **[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo). Publicado com releases.
+- **[alm_loadscreen](https://github.com/dalmeidasdev/alm_loadscreen)**: tela de carregamento para servidores de RP, com nome e logo do servidor, cartões de teclas e novidades, dicas que trocam sozinhas, barra de progresso e player de música. Cada parte liga e desliga no `config.lua`, com textos em português e inglês e cores personalizáveis. Testada no QBCore; o modo standalone está incluído, mas ainda sem teste.
+
+Precisa de algo diferente do que eles oferecem? Faço versões sob medida, é só me chamar no Discord.
 
 ## 🛠️ O que já construí
 - **Servidor FiveM:** uma base própria de servidor, criada com apoio de IA. Eu defini as instruções e as ideias, apliquei tudo e fiz os testes, inclusive dos problemas que a IA não conseguiu resolver.
