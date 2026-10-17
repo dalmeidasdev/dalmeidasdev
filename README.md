@@ -19,8 +19,12 @@ Publicados com releases, instalação documentada, changelog e suporte pelo [Dis
 - **[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo).
 - **[alm_loadscreen](https://github.com/dalmeidasdev/alm_loadscreen)**: tela de carregamento para servidores de RP, com nome e logo do servidor, cartões de teclas e novidades, dicas que trocam sozinhas, barra de progresso e player de música. Cada parte liga e desliga no `config.lua`, com textos em português e inglês e cores personalizáveis.
 
-### 💰 Pago
-- **alm_detran** (R$ 79): Detran brasileiro para FiveM, com provas teóricas, CNH por categoria, sistema de pontos, radares, multas aplicadas pela polícia e painel de configuração dentro do jogo. Usa `oxmysql`. A compra é feita pelo Discord: o pagamento é por Pix e a entrega do script é pelo ticket.
+### 💰 Pagos
+- **alm_detran** (R$ 79): Detran brasileiro para FiveM, com provas teóricas, CNH por categoria, sistema de pontos, radares, multas aplicadas pela polícia e painel de configuração dentro do jogo. Usa `oxmysql`.
+- **alm_documentos** (R$ 39): documentos e identidade para servidores de RP, com carteira de identidade com CPF único, carteira digital, porte de arma analisado pela polícia, conferência dos cartões na abordagem (`/conferir`), licenças extras e painel de configuração no jogo. Usa `oxmysql`; `qb-inventory`, `qb-target` e `alm_detran` são opcionais. Funciona sozinho ou junto com o alm_detran.
+- **📦 Pacote Documentação** (alm_detran + alm_documentos): **R$ 89** em vez de R$ 118. Os dois continuam independentes e chegam juntos no mesmo ticket.
+
+**Como comprar:** abra um ticket no [Discord da Almeida Scripts](https://discord.gg/dfuF2gz8NQ), confirme o pedido comigo, pague por Pix e receba o zip no próprio ticket.
 
 > Os scripts foram testados no **QBCore**. O modo standalone está incluído, mas ainda não foi testado.
 
