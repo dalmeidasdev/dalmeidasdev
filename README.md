@@ -11,17 +11,25 @@ Combino o escopo antes de começar e entrego por etapas. Uso IA como apoio e tes
 
 > Atendimento somente pelo Discord **zalmeida** e pelo servidor oficial da Almeida Scripts.
 
-## ⭐ Scripts gratuitos da Almeida Scripts
-Scripts que eu publico de graça, com instalação documentada, changelog e suporte pelo [Discord](https://discord.gg/dfuF2gz8NQ):
+## ⭐ Scripts da Almeida Scripts
 
-- **[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo). Publicado com releases.
-- **[alm_loadscreen](https://github.com/dalmeidasdev/alm_loadscreen)**: tela de carregamento para servidores de RP, com nome e logo do servidor, cartões de teclas e novidades, dicas que trocam sozinhas, barra de progresso e player de música. Cada parte liga e desliga no `config.lua`, com textos em português e inglês e cores personalizáveis. Testada no QBCore; o modo standalone está incluído, mas ainda sem teste.
+### 🆓 Gratuitos
+Publicados com releases, instalação documentada, changelog e suporte pelo [Discord](https://discord.gg/dfuF2gz8NQ):
+
+- **[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo).
+- **[alm_loadscreen](https://github.com/dalmeidasdev/alm_loadscreen)**: tela de carregamento para servidores de RP, com nome e logo do servidor, cartões de teclas e novidades, dicas que trocam sozinhas, barra de progresso e player de música. Cada parte liga e desliga no `config.lua`, com textos em português e inglês e cores personalizáveis.
+
+### 💰 Pago
+- **alm_detran** (R$ 79): Detran brasileiro para FiveM, com provas teóricas, CNH por categoria, sistema de pontos, radares, multas aplicadas pela polícia e painel de configuração dentro do jogo. Usa `oxmysql`. A compra é feita pelo Discord: o pagamento é por Pix e a entrega do script é pelo ticket.
+
+> Os scripts foram testados no **QBCore**. O modo standalone está incluído, mas ainda não foi testado.
 
 Precisa de algo diferente do que eles oferecem? Faço versões sob medida, é só me chamar no Discord.
 
 ## 🛠️ O que já construí
 - **Servidor FiveM:** uma base própria de servidor, criada com apoio de IA. Eu defini as instruções e as ideias, apliquei tudo e fiz os testes, inclusive dos problemas que a IA não conseguiu resolver.
-- **Bots de Discord:** um deles integra com o FiveM para liberar whitelist e aplicar banimentos (feito com apoio de IA).
+- **Bot de Discord da Almeida Scripts** (Python, `discord.py`): atende o servidor da marca com tickets de orçamento e de compra, horário de atendimento, cargos, FAQ, relatos de bug e depoimentos (feito com apoio de IA).
+- **Bots de Discord para FiveM:** um deles integra com o servidor para liberar whitelist e aplicar banimentos (feito com apoio de IA).
 - **Cidade dos Agentes:** mini cidade em pixel art que mostra em tempo real o que os agentes do Claude Code estão fazendo (Node.js, sem dependências) → [cidade-agentes](https://github.com/dalmeidasdev/cidade-agentes)
 - **Automações em Python (sem IA):** scripts com `pyautogui` para automatizar tarefas do dia a dia → [automacoes](https://github.com/dalmeidasdev/automacoes)
 - **Autocleaner para PC:** ferramenta de limpeza do básico ao avançado, em PowerShell (feita com apoio de IA) → [auto-cleaner](https://github.com/dalmeidasdev/auto-cleaner)
