@@ -18,6 +18,7 @@ Publicados com releases, instalação documentada, changelog e suporte pelo [Dis
 
 - **[alm_hud](https://github.com/dalmeidasdev/alm_hud)**: HUD para FiveM (QBCore e standalone), com vida, fome, sede, dinheiro, velocímetro e mais. Tudo configurável no `config.lua`, com consumo de cerca de 0,04 ms a pé (medido no `resmon`, servidor QBCore limpo).
 - **[alm_loadscreen](https://github.com/dalmeidasdev/alm_loadscreen)**: tela de carregamento para servidores de RP, com nome e logo do servidor, cartões de teclas e novidades, dicas que trocam sozinhas, barra de progresso e player de música. Cada parte liga e desliga no `config.lua`, com textos em português e inglês e cores personalizáveis.
+- **[alm_chat](https://github.com/dalmeidasdev/alm_chat)**: chat de RP que troca o `chat` padrão do FiveM sem quebrar os scripts que já mandam mensagem nele. Tem fala local com o nome do personagem, máscara, `/me` sobre a cabeça, `/do`, `/ooc`, `/try`, canais de grupo (polícia e staff), atalhos de ação, avisos e rádio da cidade, e um painel de configuração dentro do jogo (`/chatadmin`). Usa `oxmysql` só para guardar os ajustes do painel.
 
 ### 💰 Pagos
 - **alm_detran** (R$ 79): Detran brasileiro para FiveM, com provas teóricas, CNH por categoria, sistema de pontos, radares, multas aplicadas pela polícia e painel de configuração dentro do jogo. Usa `oxmysql`.
