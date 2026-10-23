@@ -23,6 +23,7 @@ Publicados com releases, instalação documentada, changelog e suporte pelo [Dis
 ### 💰 Pagos
 - **alm_detran** (R$ 79): Detran brasileiro para FiveM, com provas teóricas, CNH por categoria, sistema de pontos, radares, multas aplicadas pela polícia e painel de configuração dentro do jogo. Usa `oxmysql`.
 - **alm_documentos** (R$ 39): documentos e identidade para servidores de RP, com carteira de identidade com CPF único, carteira digital, porte de arma analisado pela polícia, conferência dos cartões na abordagem (`/conferir`), licenças extras e painel de configuração no jogo. Usa `oxmysql`; `qb-inventory`, `qb-target` e `alm_detran` são opcionais. Funciona sozinho ou junto com o alm_detran.
+- **alm_banco** (R$ 79): banco para servidores de RP que entra no lugar do `qb-banking` sem editar nenhum outro script, porque atende as mesmas chamadas (salário, multas, concessionária e outros continuam funcionando). Tem agências e caixas eletrônicos, depósito e saque, **Pix brasileiro** (chaves, limite diário e noturno, comprovante), contas compartilhadas, contas de empresa e de gangue com permissão por cargo, poupança, CDB, bolsa opcional, bloqueio cautelar pela polícia, painel de configuração no jogo (`/bancoadmin`) e auditoria de todo movimento. O servidor confere tudo, então o saldo não duplica por trapaça do cliente.
 - **📦 Pacote Documentação** (alm_detran + alm_documentos): **R$ 89** em vez de R$ 118. Os dois continuam independentes e chegam juntos no mesmo ticket.
 
 **Como comprar:** abra um ticket no [Discord da Almeida Scripts](https://discord.gg/dfuF2gz8NQ), confirme o pedido comigo, pague por Pix e receba o zip no próprio ticket.
@@ -33,11 +34,11 @@ Precisa de algo diferente do que eles oferecem? Faço versões sob medida, é s�
 
 ## 🛠️ O que já construí
 - **Servidor FiveM:** uma base própria de servidor, criada com apoio de IA. Eu defini as instruções e as ideias, apliquei tudo e fiz os testes, inclusive dos problemas que a IA não conseguiu resolver.
-- **Bot de Discord da Almeida Scripts** (Python, `discord.py`): atende o servidor da marca com tickets de orçamento e de compra, horário de atendimento, cargos, FAQ, relatos de bug e depoimentos (feito com apoio de IA).
-- **Bots de Discord para FiveM:** um deles integra com o servidor para liberar whitelist e aplicar banimentos (feito com apoio de IA).
+- **Bot de Discord da Almeida Scripts** (Python, `discord.py`): atende o servidor da marca com tickets de orçamento e de compra, horário de atendimento, cargos, FAQ, relatos de bug e depoimentos .
+- **Bots de Discord para FiveM:** um deles integra com o servidor para liberar whitelist e aplicar banimentos.
 - **Cidade dos Agentes:** mini cidade em pixel art que mostra em tempo real o que os agentes do Claude Code estão fazendo (Node.js, sem dependências) → [cidade-agentes](https://github.com/dalmeidasdev/cidade-agentes)
-- **Automações em Python (sem IA):** scripts com `pyautogui` para automatizar tarefas do dia a dia → [automacoes](https://github.com/dalmeidasdev/automacoes)
-- **Autocleaner para PC:** ferramenta de limpeza do básico ao avançado, em PowerShell (feita com apoio de IA) → [auto-cleaner](https://github.com/dalmeidasdev/auto-cleaner)
+- **Automações em Python:** scripts com `pyautogui` para automatizar tarefas do dia a dia → [automacoes](https://github.com/dalmeidasdev/automacoes)
+- **Autocleaner para PC:** ferramenta de limpeza do básico ao avançado, em PowerShell → [auto-cleaner](https://github.com/dalmeidasdev/auto-cleaner)
 
 ## 🤝 Como eu uso IA
 Uso IA como ferramenta de apoio e deixo claro nos meus projetos quando ela participou e como. Nos projetos criados para treinar minhas habilidades de programação, escrevo o código sozinho.
